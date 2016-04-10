@@ -1,0 +1,15 @@
+body {
+	border-top-color: #000000;
+}
+
+a, a:hover, a:active, a:focus, a:visited {
+	color: #000000;
+}
+
+h1 {
+	border-top-color: #999999;
+}
+
+h2 {
+	border-top-color: #999999;
+}

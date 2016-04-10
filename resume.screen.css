@@ -1,0 +1,19 @@
+body {
+	border-top-color: #E08E79;
+}
+
+a, a:hover, a:active, a:focus, a:visited {
+	color: #774F38;
+}
+
+h1 {
+	border-top-color: #F1D4AF;
+}
+
+h2 {
+	border-top-color: #C5E0DC;
+}
+
+.highlight {
+	background-color: #FFFF00;
+}

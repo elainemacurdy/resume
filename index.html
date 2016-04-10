@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	    <meta charset="utf-8">
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Elaine Harman: Resume</title>
+		<link type="text/css" href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+		<link type="text/css" href="resume.css" rel="stylesheet" />
+		<link type="text/css" href="resume.screen.css" rel="stylesheet" media="screen" />
+		<link type="text/css" href="resume.print.css" rel="stylesheet" media="print" />
+		<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+		<script type="text/javascript" src="jquery.highlight.js"></script>
+		<script type="text/javascript" src="./HighlightableList.js"></script>
+		<script type="text/javascript" src="./bootstrap/js/bootstrap.min.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function() {
+				new HighlightableList({
+					container: $("[data-id='skillsList']"),
+					keywords: ["Agile development", "AJAX", "Ampersand", "Backbone", "Browserify", "Cheetah", "CSS", "CSS Modules", "ES6/7", "Git", "Handlebars", "HTML", "Java", "JavaScript", "JQuery", "JQuery UI", "Joi", "JSON", "JSP", "JSTL", "JsUnit", "JSX", "LESS", "Lodash", "Mocha", "mySQL", "Nightwatch", "Node", "Photoshop", "Python", "React", "Redux", "ReduxForm", "REST", "Selenium", "server-side templating", "single page applications", "Stash", "Struts", "SVN", "tape", "Tomcat", "UI architecture", "Underscore", "Webpack", "XML"]
+				}).generate();
+			});
+		</script>
+	</head>
+	<body>
+		<h1>Elaine Harman</h1>
+
+		<div class="grid">
+			<span class="col-md-4 left">
+				<a href="mailto:harman.elaine@gmail.com">harman.elaine@gmail.com</a>
+			</span>
+			<span class="col-md-4 center">Boston, MA</span>
+			<span class="col-md-4 right">
+				<a href="http://www.gammonandspinach.org">gammonandspinach.org</a>
+			</span>
+			<br class="clear-fix"/>
+		</div>
+
+		<h2>Summary</h2>
+		<p>
+			With sixteen years in the industry, I have an exceptionally deep understanding of web user interfaces. My expertise is architecting elegant, scalable, and maintainable JavaScript infrastructures for high end rich web apps. I&#8217;m on the hunt for a team that is challenging, supportive, innovative, relentlessly self-improving, has outrageous integrity, and above all: fun!
+		</p>
+
+		<h2>Skills, Tools, and Software</h2>
+		<p data-id="skillsList"></p>
+
+		<h2>Experience</h2>
+		<h3>Senior Developer at AudienceScience (Bellevue, WA: remote)</h3>
+		<h4>Mar 2014 &mdash; Present</h4>
+		<p>
+			As Senior Developer on the UI team I have spearheaded two separate implementations of AudienceScience&#8217;s flagship web application, shaping best practices and standards, and delivering high quality features. One implementation is written in Ampersand (similar to Backbone, but more sophisticated) and Less using Browserify and ES5, and the second in React/Redux/ReduxForm and CSS Modules using Webpack and ES6/7. Both implementations run on Node in the development environment (but on Tomcat as wars in production). The app&#8217;s purpose is to allow users to manage the creation and maintenance of their digital advertising campaigns, via a number of complex and customized forms. Default values, available options, behavior, visibility etc. change based on user selections, and data validity is enforced by an extensive Joi validation framework. Millions of dollars flow through AudienceScience&#8217;s ad management system.
+		</p>
+		<p>
+			Key skills include:
+		</p>
+		<ul>
+			<li>Architecting a flexible, extensible, and intuitive infrastructure to support complex requirements and a sophisticated user experience.</li>
+			<li>Solving problems common to most single page apps, such as navigation, &#8220;deep linking&#8221;, state management, and payload strategies.</li>
+			<li>Building a library of common design patterns and reusable modules/components from a plethora of one-offs and exceptions.</li>
+			<li>Relentlessly pursuing the sweet spot between enough adaptability and customization to support the app, and keeping the codebase intuitive and simple to maintain.</li>
+			<li>Extensive unit and integration testing: Nightwatch (wrapping Selenium) and tape in the Ampersand app; and Mocha, React&#8217;s TestUtils, and jsdom in the React app. The Ampersand app maintains about 98% test coverage, while the React app&#8217;s tests are still catching up with rapid development.</li>
+			<li>Mentoring other developers in architecture and design, tool choices and usage, performance and efficiency, debugging strategies, test efficacy, etc.</li>
+			<li>Almost daily code reviews and collaboration with other developers, both UI and services.</li>
+		</ul>
+
+
+		<h3>Senior Web Developer at Ion Interactive (Cambridge, MA)</h3>
+		<h4>Aug 2013 &mdash; Feb 2014</h4>
+		<p>
+			Developed new features in a complex web-based tool to build sophisticated, app-like landing pages. Landing pages used responsive design to function gracefully on desktop, tablet, and phone platforms. The app was implemented using Backbone, Handlebars templates, and LESS.
+		</p>
+
+
+		<h3>Lead Web Developer at The Cozi Group, Inc. (Seattle, WA: remote)</h3>
+		<h4>Jun 2008 &mdash; Jan 2013</h4>
+		<p>
+			Led a team of UI developers focused on Cozi&#8217;s flagship web application, a suite of family organizational tools. The tools included a sophisticated calendar, journal, family message board, birthday tracker, shopping and to do lists, etc. The JavaScript web app was implemented using a homegrown MVP framework, modular jQuery UI widgets, and CSS.
+		</p>
+		<p>
+			Key skills included:
+		</p>
+		<ul>
+			<li>Developing internal JavaScript tools, standards and frameworks to aid maintenance of otherwise complex parts of the application.</li>
+			<li>Managing several part-time, long-term projects to refactor/rewrite high profile parts of the application that had become unmaintainable. Work was done only as time allowed, so extra focus and commitment was necessary to roll them out iteratively with minimal impact.</li>
+			<li>Authoring pieces of the Python RESTful services, from the data layer up through http endpoints, to cross-client Cheetah templates.</li>
+			<li>Implementing a pseudo browser interpreter engine using Google's Desktop Gadgets API (now defunct). The native tools available for rendering GUIs were clunky and difficult to use, so for Cozi's desktop gadget I wrote an engine that parsed HTML- and CSS-like syntax and did the necessary rendering.</li>
+			<li>Acting as release manager for frequent QA and production releases of several Cozi products.</li>
+		</ul>
+
+
+		<h3>Senior UI Developer at Wetpaint, Inc. (Seattle, WA)</h3>
+		<h4>Jun 2007 &mdash; Jun 2008</h4>
+		<p>
+			Wetpaint's wiki application was a RESTful Java web application using XML for data transport. The user interface integrated with the middle tier using JSTL, custom tags and tiles. The UI was rendered intelligently to maximize SEO, and manipulated by JavaScript to support a cutting edge user experience.
+		</p>
+		<p>
+			Key skills included:
+		</p>
+		<ul>
+			<li>Participating in all phases of feature planning and development, helping to design highly innovative features that centered on user experience.</li>
+			<li>Streamlining and redesigning the existing JavaScript application framework, both to provide extensibility and scalability as the application grew, and to minimize its payload.</li>
+			<li>Helped refactor the middle tier to improve scalability and maintainability.</li>
+		</ul>
+
+
+		<h3>Technical Lead/Senior UI Developer at The Cobalt Group (Seattle, WA)</h3>
+		<h4>Apr 2001 &mdash; Jun 2007</h4>
+		<p>
+			As Technical Lead on the Product UI team, I led development of Cobalt&#8217;s primary web application: a sophisticated content management tool for auto dealers and OEM websites. The team was located in Seattle, Austin, TX and Bangalore, India. The CMS was implemented in a blend of Java, XML, JSP technologies (e.g. JSTL, Jakarta Struts tags), asynchronous data transfers, and cross-browser JavaScript and CSS.
+		</p>
+		<p>
+			Key skills included:
+		</p>
+		<ul>
+			<li>Managing developers in three locations. To effectively mentor the team I developed a multi-faceted approach, including both formal and informal code reviews, detailed JSP and JavaScript design documentation, and in-person training sessions in both Austin and Bangalore.</li>
+			<li>Creating creative ways to implement asynchronous communication, prior to widespread availability of the XMLHttpRequest. With another developer, designed a proto-JSON format before the JSON standard existed.</li>
+			<li>Architecting flexible JavaScript APIs for a UI team with a wide range of abilities.</li>
+			<li>Working closely with the design, engineering, and business requirements teams during feature inception and elaboration phases. As team lead, I was the point-of-contact for estimates and technical feedback.</li>
+			<li>Collaborating with the backend engineering team to design smart, simple presentation and UI layers.</li>
+			<li>Authoring Java servlets, Struts action classes, custom tags, VOs, utilities etc.</li>
+			<li>Providing consultation and instruction to other technical teams within the company, concerning use and development of Cobalt applications.</li>
+			<li>Wrote extensive documentation of standards, UML designs, JavaScript usage guides, advanced JSTL guides, development environment setup and maintenance, and various other technical documentation.</li>
+		</ul>
+
+
+		<h3>Instructor, Web Scripting at South Seattle Community College (Seattle, WA)</h3>
+		<h4>2001</h4>
+		<p>
+			Designed, wrote and taught a 10-week advanced JavaScript/DHTML class, for advanced students in the College's Web Program.
+		</p>
+
+
+		<h3>Web Developer at Hornall Anderson Design Works (Seattle, WA)</h3>
+		<h4>Jan 2001 &mdash; Feb 2001</h4>
+
+
+		<h3>Web Developer at Luminant Worldwide (Seattle, WA)</h3>
+		<h4>Feb 2000 &mdash; Nov 2000</h4>
+
+
+		<h2>Education</h2>
+		<h3>B.S. in Computer Science, The Evergreen State College (Olympia, WA)</h3>
+		<h4>1999</h4>
+	</body>
+</html>
