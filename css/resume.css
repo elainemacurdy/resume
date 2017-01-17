@@ -60,22 +60,14 @@ li {
     padding-bottom: 30px;
 }
 
-.grid .center {
-    text-align: center;
-}
-
-.grid .right {
-    text-align: right;
-}
-
-/* Bootstrap overrides */
-.col-md-4 {
-    padding: 0px;
-}
-
 .skills {
     border-bottom: 1px solid #7F7F7F;
     border-top: 1px solid #7F7F7F;
     margin: 2em 8em 2em 8em;
     padding: 1em 0 1em 0;
+}
+
+/* Bootstrap overrides */
+.col-md-4 {
+    padding: 0px;
 }

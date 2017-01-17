@@ -14,11 +14,20 @@ h2 {
     border-top-color: #C5E0DC;
 }
 
+@media (min-width: 992px) {
+    .center {
+        text-align: center;
+    }
+    .right {
+        text-align: right;
+    }
+}
+
 .page {
     background-color: #FFFFFF;
     border-top-color: #E08E79;
     margin: 0px auto 0px auto;
-    width: 1240px;
+    max-width: 1240px;
 }
 
 .masterSkills span:hover {
