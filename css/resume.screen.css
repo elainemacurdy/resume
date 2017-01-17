@@ -1,19 +1,31 @@
 body {
-	border-top-color: #E08E79;
+    background-color: #EFEFEF;
 }
 
 a, a:hover, a:active, a:focus, a:visited {
-	color: #774F38;
+    color: #774F38;
 }
 
 h1 {
-	border-top-color: #F1D4AF;
+    border-top-color: #F1D4AF;
 }
 
 h2 {
-	border-top-color: #C5E0DC;
+    border-top-color: #C5E0DC;
+}
+
+.page {
+    background-color: #FFFFFF;
+    border-top-color: #E08E79;
+    margin: 0px auto 0px auto;
+    width: 1240px;
+}
+
+.masterSkills span:hover {
+    cursor: default;
+    text-decoration: underline;
 }
 
 .highlight {
-	background-color: #FFFF00;
+    background-color: #FFFF00;
 }
